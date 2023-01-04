@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="http://findmenu.org"><img src="https://github.com/amplyllc/findmenu/blob/main/src/assets/img/findmenu.png" alt="Findmenu.org" width="200"></a>
+  <a href="http://findmenu.org"><img src="https://github.com/amplyllc/findmenu/blob/main/src/assets/img/findmenu.png" alt="Findmenu.org" width="500"></a>
   <br>
   Findmenu.org
   <br>
