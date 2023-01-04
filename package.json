@@ -5,16 +5,26 @@
     "start": "eleventy --serve",
     "build": "eleventy"
   },
-  "packageManager": "yarn@3.3.1",
-  "dependencies": {
-    "corepack": "^0.15.3",
-    "eleventy-plugin-toc": "^1.1.5",
-    "luxon": "^3.2.0",
-    "markdown": "^0.5.0",
-    "markdown-it": "^13.0.1",
-    "markdown-it-anchor": "^8.6.6"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amplyllc/oatcake.git"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amplyllc/findmenu/issues"
+  },
+  "homepage": "https://github.com/amplyllc/findmenu#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2"
+    "@11ty/eleventy": "^0.12.1",
+    "eleventy-plugin-toc": "^1.1.5",
+    "luxon": "^2.4.0"
+  },
+  "dependencies": {
+    "markdown-it": "^12.2.0",
+    "markdown-it-anchor": "^8.4.1",
+    "markdown-it-toc-done-right": "^4.2.0"
   }
 }
+
