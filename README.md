@@ -8,11 +8,11 @@
 
 <h4 align="center">An open source, hand crafted collection of menus.</h4>
 
-<p align="center">
-  <!-- <a href="https://">
+<!-- <p align="center">
+  <a href="https://">
     <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
-  </a> -->
-</p>
+  </a>
+</p> -->
 
 <p align="center">
   <a href="#overview">Overview</a> •
