@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{ title }} | {{ site.name }}</title>
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.svg"/>
+
+        <meta name="author" content="{{ site.authorName }}">
+        {%- if (tags) -%}<meta name="description" content="Can't find {{ title }}'s menu? Search our collection of local, viewable menus.">{%- else -%}<meta name="description" content="{{ description }}">{%- endif -%}
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+        <link rel="manifest" href="assets/site.webmanifest">
+        <meta name="msapplication-TileColor" content="{{ site.color }}">
+        <meta name="theme-color" content="{{ site.color }}">
+
+        <meta property="og:title" content="Find Menu" />
+        <meta property="og:description" content="Explore A Handcrafted Database of Local, Viewable Menus Here." />
+        <meta property="og:type" content="website"/>
+        <meta property="og:image" content="/assets/ogimage.png"/>
+        <!-- <meta property="og:image:secure_url" content="/assets/img/social.jpg"/> -->
+        <meta name="twitter:image:src" content="/assets/ogimage.png">
+
+        <!-- <link rel="preload" as="image" href="/assets/img/background.webp"> -->
+        <!-- <link rel="stylesheet" href="assets/css/critical.css">  - Only above the fold css-->
+        <link rel="stylesheet" href="/assets/css/main.min.css">
+        <!-- <link rel="stylesheet" href="/css/local.css" media="print" onload="this.media='all'; this.onload=null;"> -->
+
+        <!-- <noscript>
+            <link rel="stylesheet" href="/assets/nojs/nojs.css">
+        </noscript> -->
+    </head>
+    <body>
+        
+        <!-- *** header *** -->
+        <header class="header">
+            {% include 'components/nav.njk' %}
+        </header><!-- /header -->
+
+        <main>
+            {{ content | safe }}
+        </main>
+
+        <!-- *** footer *** -->
+        <footer>
+            {% include 'components/footer.njk' %}
+        </footer><!-- /footer -->
+
+        <!-- *** scripts *** -->
+        <script src="/assets/js/year.js"></script>
+
+    </body>
+</html>

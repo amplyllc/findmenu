@@ -1,0 +1,72 @@
+footer {
+  background-color: map.get($theme-colors, 'background');
+  color: map.get($theme-colors, 'white');
+  
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 2rem;
+
+    @include media-lg {
+      flex-direction: row;
+      justify-content: center;
+      align-items: start;
+    }
+  }
+  .nav {
+    .links {
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+    }
+
+    @include media-lg {
+      margin-right: 2rem;
+    }
+  }
+  .logo {
+    margin: 0 0 1rem 0;
+    max-width: 65px;
+
+    @include media-lg {
+      margin: 0 2rem 0 0;
+    }
+  }
+  .copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+
+    div:nth-child(2) {
+      text-align: center;
+      margin-top: .5rem;
+
+      @include media-sm {
+        text-align: end;
+      }
+      @include media-sm-md {
+        margin-top: 0;
+      }
+    }
+
+    @include media-sm-md {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 1rem 2rem;
+    }
+  }
+  a {
+    color: map.get($theme-colors, 'white');
+
+    &:hover {
+        color: map.get($theme-colors, 'accent');
+    }
+  }
+  h3 {
+    color: map.get($theme-colors, 'accent');
+  }
+  
+}

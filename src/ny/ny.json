@@ -1,0 +1,4 @@
+{
+    "layout": "layouts/listing.njk",
+    "templateEngineOverride": "njk,md"
+}

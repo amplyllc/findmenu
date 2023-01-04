@@ -1,0 +1,30 @@
+---
+layout: "layouts/base.njk"
+---
+
+<!-- landing-banner -->
+<section id="search-banner" class="d-center">
+    <h1>Find Local, Viewable Menus Here.</h1>
+    <div class="container">
+        <div class="search">
+            <input id="searchbar" type="text" value="Search restaurants.." onclick="this.value='';" onkeyup="search();">
+        </div>
+        <div id="list"></div>
+    </div>
+    <a href="/request" class="request button underline pt-1">Request a restaurant or foodtruck.</a>
+</section><!-- /landing-banner -->
+
+<!-- *** featured *** -->
+<section id="bars">
+    <div class="d-center mb-3">
+        <h2>Bars</h2>
+    </div>
+    <div class="container grid two">
+        {%- for post in collections.bars | reverse | limit(4)-%}
+            {% include 'components/article-card.njk' %}
+        {%- endfor -%}
+    </div>
+</section><!-- /featured -->
+
+
+<script src="/assets/js/search.js"></script>

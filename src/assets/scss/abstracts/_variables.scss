@@ -1,0 +1,67 @@
+// ---------------------------------
+// map.get($variable, "value")
+// ---------------------------------
+
+// ===================
+// theme colors
+// ===================
+$theme-colors: (
+  'primary': #A44200, 
+  'secondary': #D58936,
+  'accent': #EAEFBD,
+  'background': #3C1518,
+  'foreground': #FFFFFF,
+  'white': #FFFFFF,
+  'black': #0D160B,
+  'grey': #e3e3e3,
+  'dark-grey': #7e7e7e,
+  'code': #97B19F
+);
+
+// ===================
+// font
+// ===================
+$fonts: (
+  'heading': 'Judson-Bold',
+  'body': 'Merriweather-Regular',
+  'anchor': 'Merriweather-Regular',
+  'secondary': 'Judson-Bold',
+);
+
+// ===================
+// colors
+// ===================
+$colors: (
+  'success': #0B6E4F, 
+  'danger': #C81D25,
+  'warning': #F3CA40,
+  'info': #2660A4,
+  'light': #e3e3e3,
+  'dark': #0A0903,
+  'highlight': #f8f8f8,
+  'code': #2A3D45,
+);
+
+// ===================
+// media
+// ===================
+$media: (
+  'small': 420px,
+  'medium': 768px,
+  'large': 1024px,
+  'x-large': 1600px,
+);
+
+// ===================
+// z-indexes
+// ===================
+$z-indexes: (
+  'modal': 5000,
+  'header': 4500,
+  'dropdown': 4000,
+  'heading': 5,
+  'default': 1,
+  'below': -1,
+);
+
+

@@ -1,0 +1,19 @@
+// ===================
+// general styles
+// ===================
+img {
+  width: 100%;
+}
+.bg-none {
+  background: none !important;
+}
+.shadow {
+  box-shadow: -5px 5px 5px rgba(0,0,0,.2);
+}
+pre {
+  background-color: map.get($colors, "code");
+  color: map.get($theme-colors, "white");
+  padding: 1rem;
+  border-radius: 10px;
+  overflow-x: scroll;
+}

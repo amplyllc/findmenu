@@ -1,0 +1,10 @@
+section {
+    padding: 4rem 2rem;
+
+    h2, h3, a {
+        color: map.get($theme-colors, "primary");
+    }
+    p {
+        max-width: 800px;
+    }
+}

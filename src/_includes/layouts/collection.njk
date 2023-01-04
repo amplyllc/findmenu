@@ -1,0 +1,10 @@
+---
+layout: "layouts/base.njk"
+---
+
+<!-- collection -->
+<section id="collection" class="d-center">
+    {% for ny in collections.all %}
+        {% include 'components/listing-card.njk' %}
+    {% endfor %}
+</section><!-- /collection -->

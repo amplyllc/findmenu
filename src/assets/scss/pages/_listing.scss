@@ -1,0 +1,256 @@
+#listing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 2rem;
+
+    h1 {color: map.get($theme-colors, 'background');}
+
+    // info
+    .info {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        // title
+        .title {
+            // tags
+            .tag {
+                margin-top: 1rem;
+                display: inline-block;
+
+                &::first-letter {
+                    text-transform: capitalize;
+                }
+            }
+        }
+
+        // contact and social icons
+        .contact, .social {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+
+            svg {
+                path {
+                    fill: map.get($theme-colors, 'background');
+                }
+            }
+    
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+                width: fit-content;
+            }
+        }
+        .contact {
+            svg {
+                width: 20px;
+            }
+        }
+        .social {
+            a {
+                display: flex;
+                align-items: center;
+            }
+            svg {
+                width: 30px;
+
+                &:hover {
+                    path {
+                        fill: map.get($theme-colors, 'secondary');
+                    }
+                }
+            }
+        }
+
+        // order btn
+        .order.button {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        // hours
+        .hours {
+            #hours-btn {
+                background-color: map.get($theme-colors, 'grey');
+                padding: 1rem;
+                border: none;
+                border-radius: 10px;
+
+
+                &::after {
+                    content: "+";
+                    padding-left: 2rem;
+                }
+
+                &.active {
+                    &::after {
+                        content: "-";
+                    }
+                    
+                }
+                &:hover {
+                    cursor: pointer;
+                    text-decoration: underline;
+                    color: map.get($theme-colors, 'primary');
+                }
+            }
+            #hours-div {
+                display: none;    
+                flex-direction: column;
+                gap: 1rem;
+                padding: 1rem;
+
+                .day {
+                    color: map.get($theme-colors, 'dark-grey');
+
+                    span {
+                        color: map.get($theme-colors, 'primary');
+                        font-weight: bold;
+                    }
+                    &.active {
+                        display: block !important;
+                    }
+                }
+                &.active {
+                    display: flex !important;
+                }
+            }
+        }
+
+        .copy {
+            padding: 1rem 0;
+        }
+
+        // info container
+        &.container {
+            min-width: 450px;
+        }
+    }
+
+    // menu
+    #menu {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+
+    // menu table
+    table {
+        cursor: pointer;
+        font-size: 1.25rem;
+        color: map.get($theme-colors, 'background');
+        border-bottom: 3px solid map.get($theme-colors, 'grey');
+        padding: 1rem;
+        box-sizing: border-box;
+
+        tbody {
+            display: none;
+            grid-template-columns: 100%;
+            grid-gap: 1rem;
+            margin: 1rem;
+
+            tr {
+                display: flex;
+                flex-direction: column;
+                gap: .5rem;
+
+                td {
+                    &:nth-child(1) {
+                        font-weight: bold;
+                        color: map.get($theme-colors, 'primary');
+                    }
+                    &:nth-child(2) {
+                        color: map.get($theme-colors, 'dark-grey');
+                    }
+                }
+            }
+        }
+        &.active {
+            width: 100%;
+
+            tbody {
+                display: grid;
+            }
+        }
+        &:hover {
+            thead {
+                color: map.get($theme-colors, 'primary');
+            }
+            border-bottom: 3px solid map.get($theme-colors, 'secondary');
+            padding: .5rem 1rem;
+            transition: all 0.3s ease-out;
+        }
+    }
+    .slug {
+        padding-bottom: .5rem;
+
+        a {
+            color: map.get($theme-colors, 'dark-grey');
+
+            &::after {
+                content: ">";
+                color: map.get($theme-colors, 'background');
+                padding: 0 .5rem;
+            }
+
+            &:hover {
+                color: map.get($theme-colors, 'secondary');
+            }
+        }
+    }
+
+    // media
+    @include media-md {
+        tbody {
+            grid-template-columns: 48% 48% !important;
+        }
+        .info {
+            .contact {
+                svg {width: 25px}
+            }
+            .social {
+                svg {width: 35px}
+            }
+        }
+    }
+}
+
+#collection-container {
+    margin: 2rem;
+
+    h1 { 
+        display: inline-block; 
+        &::first-letter { text-transform: capitalize; }
+    }
+    
+    .container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 2rem;
+        margin-top: 2rem;
+
+        .listing-card {
+            display: flex;
+            width: 100%;
+            list-style: none;
+            border: 3px solid map.get($theme-colors, 'grey');
+            border-radius: 10px;
+            padding: 1rem;
+            box-sizing: border-box;
+            color: map.get($theme-colors, 'background');
+            width: 100%;
+        }
+    }
+
+    // media
+    @include media-md {
+        .container {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}

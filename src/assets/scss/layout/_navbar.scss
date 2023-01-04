@@ -1,0 +1,79 @@
+// ===================
+// header
+// ===================
+.header {
+    width: 100%;
+    z-index: map.get($z-indexes, 'header');
+    background-color: map.get($theme-colors, "background");
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+
+        &.home {
+            .nav-link.claim {
+                display: none;
+            }
+        }
+        &.interior {
+            .nav-link.add {
+                display: none;
+            }
+        }
+    }
+    
+
+    .nav-item {
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .nav-link {
+        display: flex;
+        font-weight: 400;
+        color: map.get($theme-colors, 'white');
+    
+        span {
+            display: none;
+            
+            @include media-sm-md {
+                display: block;
+            }
+        }
+        &.active {
+            color: map.get($theme-colors, "accent");
+        }
+        &:hover{
+            color: map.get($theme-colors, 'accent');
+        }
+    }
+    
+    .nav-logo {
+        width: 150px;
+        display: flex;
+        align-items: center;
+
+        svg {
+            &:hover {
+                path{fill: map.get($theme-colors, 'accent');}
+                
+            }
+        }
+
+        @include media-md {
+            margin-right:  auto;
+        }
+        @include media-lg {
+            width: 185px;
+        }
+    }
+}
+
+
+

@@ -1,0 +1,30 @@
+// ===================
+// card 1
+// ===================
+
+.listing.card {
+    width: 100%;
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        color: map.get($theme-colors, 'dark-grey');
+        padding: 1rem;
+        border: 3px solid map.get($theme-colors, 'grey');
+        border-radius: 10px;
+
+        & p:nth-child(1) {
+            color: map.get($theme-colors, 'background');
+        }
+
+        &:hover {
+            cursor: pointer;
+            background-color: map.get($theme-colors, 'grey');
+            p { color: map.get($theme-colors, 'primary'); }
+
+            @include shrink;
+            @include transition-ease
+        }
+    }
+}
