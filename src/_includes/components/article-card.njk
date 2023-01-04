@@ -1,7 +1,7 @@
 <div class="listing card" onClick="parent.location='{{ post.url }}'">
     <a href="{{ post.url }}" class="info">
         <p>{{ post.data.title }}</p>
-        {%- if (hours) %}
+        {%- if (post.data.hours) %}
             <p>View Availability</p>
         {%- else -%}
             <p>{{ post.data.address }}</p>

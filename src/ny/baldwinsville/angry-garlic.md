@@ -12,6 +12,9 @@ address: 29 Oswego St.
 state: NY
 city: Baldwinsville
 zip: 13027
+category:
+    one: bars
+    two: american
 tags: 
     - bars
     - american

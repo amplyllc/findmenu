@@ -14,6 +14,9 @@ states:
 state: NY
 city: Baldwinsville
 zip: 13027
+category:
+    one: bars
+    two: sandwiches
 tags: 
     - bars
     - sandwiches

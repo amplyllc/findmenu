@@ -14,6 +14,8 @@ states:
 state: NY
 city: Baldwinsville
 zip: 13027
+category:
+    one: coffee
 tags: 
     - coffee
 date: 2022-12-29

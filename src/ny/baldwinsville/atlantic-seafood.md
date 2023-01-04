@@ -12,6 +12,8 @@ address: 69 E Genesee St.
 state: NY
 city: Baldwinsville
 zip: 13027
+category:
+    one: seafood
 tags: 
     - seafood
 date: 2022-12-29

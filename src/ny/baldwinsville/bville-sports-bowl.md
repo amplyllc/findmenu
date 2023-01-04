@@ -14,6 +14,10 @@ states:
 state: NY
 city: Baldwinsville
 zip: 13027
+category:
+    one: bowling
+    two: pizza
+    three: bars
 tags: 
     - bowling
     - pizza

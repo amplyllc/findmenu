@@ -1,8 +1,10 @@
 ---
-pagination:
+pagination: 
   data: collections
   size: 1
   alias: tag
+  filter:
+    - baldwinsville
 permalink: /{{ tag | slug }}/
 layout: layouts/base.njk
 eleventyComputed:

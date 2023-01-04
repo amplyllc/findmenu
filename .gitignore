@@ -3,6 +3,10 @@ node_modules
 
 # build artefacts
 public
+/assets/css
+
+# settings
+.vscode
 
 # secrets and errors
 .env

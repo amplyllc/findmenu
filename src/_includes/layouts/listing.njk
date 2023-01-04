@@ -4,16 +4,25 @@ type: interior
 ---
 
 <section id="listing">
-        <!-- <div class="slug">
+        {% if (city) %}
+        <div class="slug">
             <a href="/{{state}}">{{state}}</a>
-            <a href="/{{state}}/{{city}}">{{city}}</a>
-        </div> -->
+            <a>{{city}}</a>
+        </div>
+        {% endif %}
         <div class="info">
                 <div class="title">
                     <h1>{{title}}</h1>
-                    {% for tag in tags %}
-                        <a href="/{{tag}}" class="tag light rounded">{{tag}}</a>
-                    {% endfor %}
+                        <a href="/{{category.one}}" class="tag light rounded">{{category.one}}</a>
+                        {% if (category.two) %}
+                        <a href="/{{category.two}}" class="tag light rounded">{{category.two}}</a>
+                        {% endif %}
+                        {% if (category.three) %}
+                        <a href="/{{category.three}}" class="tag light rounded">{{category.three}}</a>
+                        {% endif %}
+                        {% if (category.four) %}
+                        <a href="/{{category.four}}" class="tag light rounded">{{category.four}}</a>
+                        {% endif %}
                 </div>
 
                 <div class="contact">
@@ -66,7 +75,8 @@ type: interior
 
                 <div class="hours">
                     {%- if (hours) %}
-                    <a href="{{hours}}">View Availability on SFF</a>
+                    <h2 class="mb-2">Hours:</h2>
+                    <a id="hours-btn" href="{{hours}}">View&nbsp;Availability&nbsp;on&nbsp;SFF</a>
                     {%- else -%}
                     <h2 class="mb-1">Today:</h2>
                     <button id="hours-btn"></button>
@@ -83,8 +93,8 @@ type: interior
                 </div>
 
                 <div class="copy">
+                    <p class="mb-1">Last updated: {{date | postDate}}</p>
                     <small>&copy; <span id="copyYear2"></span> {% if (tags) %}{{title}}{% endif %} | All Rights Reserved</small>
-                    <p>Last updated: {{date | postDate}}</p>
                 </div>
         </div>
 
@@ -109,5 +119,7 @@ type: interior
     </a>
 </section><!-- /banner -->
 
+{% if (hours) %}{% else %}
 <script src="/assets/js/date.js"></script>
+{% endif %}
 <script src="/assets/js/dropdown.js"></script>

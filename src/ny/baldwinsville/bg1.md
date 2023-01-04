@@ -13,6 +13,9 @@ address: 1 W Genesee St.
 state: NY
 city: Baldwinsville
 zip: 13027
+category:
+    one: bars
+    two: pizza
 tags: 
     - bars
     - pizza

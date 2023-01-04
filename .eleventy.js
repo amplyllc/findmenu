@@ -14,11 +14,11 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(pluginTOC, {
         tags: ['th'],
         wrapper: 'div',
-    })
+    });
 
     eleventyConfig.addFilter("postDate", (dateObj) => {
         return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
-    })
+    });
 
     // eleventyConfig.addCollection('tagsList', (collectionApi) => {
     //     const tagsSet = new Set()
@@ -28,17 +28,7 @@ module.exports = function(eleventyConfig) {
     //         .filter((tag) => !['post'].includes(tag))
     //         .forEach((tag) => tagsSet.add(tag))
     //     })
-    //     return [...tagsSet].sort((a, b) => b.localeCompare(a))
-    // })
-
-    eleventyConfig.addCollection('tagList', collection => {
-        const tagsSet = new Set();
-        collection.getAll().map(item => {
-          if (!item.data.tags) return;
-          item.data.tags.filter(tag => !['ny'].includes(tag)).map(tag => tagsSet.add(tag));
-        });
-        return [...tagsSet].sort((a, b) => b.localeCompare(a));
-    });
+    // });
 
     eleventyConfig.addNunjucksFilter("limit", (arr, limit) => arr.slice(0, limit));
 

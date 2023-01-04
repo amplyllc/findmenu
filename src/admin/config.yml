@@ -1,0 +1,31 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "public/assets/img" 
+public_folder: "/assets/img"
+collections:
+  - name: "ny"
+    label: "NY Restaurants"
+    folder: "src/ny"
+    create: true
+    slug: "{{slug}}"
+    path: "{{slug}}"
+    fields:
+      - { label: "Restaurant Name", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Category", name: "category", widget: "list", default: ["Guides & Insights"]}
+      - { label: 'Map', name: 'map', widget: 'map' }
+      - { label: 'Phone', name: 'phone', widget: 'phone' }
+      - { label: 'Email', name: 'email', widget: 'email' }
+      - { label: 'Online Order Link', name: 'order', widget: 'string' }
+      - { label: 'Website Link', name: 'website', widget: 'string' }
+      - { label: 'Facebook Link', name: 'facebook', widget: 'string' }
+      - { label: 'Instagram Link', name: 'instagram', widget: 'string' }
+      - { label: 'Yelp Link', name: 'yelp', widget: 'string' }
+      - { label: "Author", name: "author", widget: "string", default: "Amply Team"}
+      - { label: "Description", name: "desc", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
+      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Image caption", name: "image-alt", widget: "string"}
+      - { label: "Body", name: "body", widget: "markdown" }
+  

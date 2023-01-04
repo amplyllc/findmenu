@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>{{ title }} | {{ site.name }}</title>
+        
+        {%- if (tags) -%}<title>{{ title }}'s Menu | {{ site.name }}</title>{%- else -%}<title>{{ title }} | {{ site.name }}</title>{%- endif -%}
         <link rel="icon" type="image/x-icon" href="/assets/favicon.svg"/>
 
         <meta name="author" content="{{ site.authorName }}">
@@ -30,6 +31,8 @@
         <link rel="stylesheet" href="/assets/css/main.min.css">
         <!-- <link rel="stylesheet" href="/css/local.css" media="print" onload="this.media='all'; this.onload=null;"> -->
 
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
         <!-- <noscript>
             <link rel="stylesheet" href="/assets/nojs/nojs.css">
         </noscript> -->
@@ -51,6 +54,17 @@
         </footer><!-- /footer -->
 
         <!-- *** scripts *** -->
+        <script>
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.on("init", user => {
+            if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+              });
+            }
+          });
+        };
+        </script>
         <script src="/assets/js/year.js"></script>
 
     </body>

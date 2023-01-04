@@ -14,6 +14,8 @@ states:
 state: NY
 city: Baldwinsville
 zip: 13027
+category:
+    one: pizza
 tags: 
     - pizza
 date: 2022-12-29

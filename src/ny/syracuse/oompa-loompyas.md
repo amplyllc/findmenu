@@ -3,14 +3,19 @@ title: Oompa Loompyas
 desc: 
 phone: (315) 409-3581
 email: oompaloompyas@gmail.com
-order: https://secure.microworks.com/salspizza/
+order: 
 website: 
 facebook: https://www.facebook.com/oompaloompyas
 instagram: 
 yelp: https://www.yelp.com/biz/oompa-loompyas-syracuse-3
 zip: 13027
+city: Syracuse
+state: NY
+category:
+    one: foodtrucks
+    two: filipino
 tags: 
-    - foodtruck
+    - foodtrucks
     - filipino
 date: 2023-01-01
 hours: https://streetfoodfinder.com/oompaloompyas

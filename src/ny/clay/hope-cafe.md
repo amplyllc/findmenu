@@ -12,6 +12,10 @@ address: 920 Old Liverpool Rd.
 zip: 13088
 city: Liverpool 
 state: NY
+category:
+    one: coffee
+    two: breakfast
+    three: peruvian
 tags: 
     - coffee
     - breakfast

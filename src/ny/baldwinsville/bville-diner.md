@@ -13,6 +13,9 @@ address: 16 E. Genesee St.
 state: NY
 city: Baldwinsville
 zip: 13027
+category:
+    one: diner
+    two: breakfast
 tags: 
     - diner
     - breakfast

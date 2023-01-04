@@ -9,16 +9,16 @@ facebook: https://www.facebook.com/Bville-Sports-Bowl-281825775023
 instagram: 
 yelp: https://www.yelp.com/biz/cottage-restaurant-baldwinsville
 coords: 
-address: 45 E Genesee St.
+address: 21 Oswego St.
 states:
 state: NY
 city: Baldwinsville
 zip: 13027
+category:
+    one: breakfast
 tags: 
-    - bowling
-    - pizza
-    - bars
-date: 2022-12-29
+    - breakfast
+date: 2023-01-03
 sunday: 6AM - 1PM
 monday: 6AM - 2PM
 tuesday: 6AM - 2PM

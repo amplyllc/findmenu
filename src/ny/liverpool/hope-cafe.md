@@ -12,12 +12,15 @@ address: 8223 Oswego Rd.
 zip: 13090
 city: Clay
 state: NY
+category:
+    one: coffee
+    two: breakfast
+    three: peruvian
 tags: 
     - coffee
     - breakfast
     - peruvian
 date: 2023-01-02
-
 ---
 
 | Sangwiches | | |
