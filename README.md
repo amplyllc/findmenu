@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="http://findmenu.org"><img src="http://findmenu.org/assets/svg/logo.svg" alt="Findmenu.org" width="200"></a>
+  <a href="http://findmenu.org"><img src="https://github.com/amplyllc/findmenu/blob/main/src/assets/img/findmenu.png" alt="Findmenu.org" width="200"></a>
   <br>
   Findmenu.org
   <br>
@@ -92,7 +92,7 @@ MIT
 
 ---
 
-> [amply.llc](https://amply.llc) &nbsp;&middot;&nbsp;&nbsp;&middot;&nbsp;
+> [amply.llc](https://amply.llc) &nbsp;&middot;&nbsp;
 > GitHub [@amplyllc](https://github.com/amplyllc) 
 
 
