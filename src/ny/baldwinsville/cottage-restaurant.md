@@ -5,7 +5,7 @@ phone: (315) 635-6656
 email: 
 order:
 website: https://cottage-restaurant-diner.business.site/
-facebook: https://www.facebook.com/Bville-Sports-Bowl-281825775023
+facebook: https://www.facebook.com/people/The-Cottage/100063808570035/
 instagram: 
 yelp: https://www.yelp.com/biz/cottage-restaurant-baldwinsville
 coords: 

@@ -5,9 +5,9 @@ phone: (315) 638-9999
 email: 1950@bvillediner.com
 order:
 website: http://bvillediner.com/
-facebook: https://www.facebook.com/881479298545469
-instagram: https://www.instagram.com/bigawesomebbq
-yelp: https://www.yelp.com/biz/big-awesome-bbq-syracuse
+facebook: https://www.facebook.com/BVille-Diner-1232267380158600/
+instagram: 
+yelp: https://www.yelp.com/biz/bville-diner-baldwinsville
 coords: 
 address: 16 E. Genesee St.
 state: NY

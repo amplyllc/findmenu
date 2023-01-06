@@ -7,7 +7,7 @@ order:
 website: http://alibabagyrosandtacos.com/
 facebook: https://www.facebook.com/ALIBABA20210
 instagram: https://www.instagram.com/ali_baba_20222/
-yelp: https://www.yelp.com/biz/eden-syracuse
+yelp: 
 address: 
 zip: 
 city: Syracuse
