@@ -1,5 +1,5 @@
 var listings = new Array();
-var max = 26;
+var max = 27;
             
 for (i=1;i<=max;i++) { 
     listings[i] = new Array();
