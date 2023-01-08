@@ -26,11 +26,18 @@
     background-color: white;
     font-family: map.get($fonts, "body");
     font-size: .9rem;
-    border: none;
+    border: 3px solid map.get($theme-colors, 'grey');
     border-radius: 10px;
-    resize: vertical;
     padding: 1rem;
-    box-shadow: -5px 5px 5px rgba(0,0,0,.2);
+    box-sizing: border-box;
+    color: map.get($theme-colors, 'background');
+    resize: vertical;
+
+    &:focus{
+      outline: 2px solid map.get($theme-colors, "secondary");
+      border: none;
+      box-shadow: -5px 5px 5px rgba(0,0,0,.2);
+    }
   }
 
   // button div
