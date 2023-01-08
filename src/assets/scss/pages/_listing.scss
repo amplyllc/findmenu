@@ -134,9 +134,27 @@
     // menu
     #menu {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         gap: 1rem;
         padding: 1rem 0;
+
+        & h2 {    
+            grid-column: 1 / span 2;
+        }
+
+        @include media-sm {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 1rem;
+        }
+    }
+
+    // disclaimer
+    .disclaimer {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 1rem;
     }
 
     // menu table
