@@ -69,45 +69,49 @@ listings[16]['search'] = 'elm street tacos';
 listings[16]['des'] = "Elm Street Tacos"; 
 listings[16]['lnk'] = '/ny/syracuse/elm-street-tacos';
 
-listings[17]['search'] = 'hope cafe'; 
-listings[17]['des'] = "Hope Cafe"; 
-listings[17]['lnk'] = '/ny/clay/hope-cafe';
+listings[17]['search'] = 'erawan thai'; 
+listings[17]['des'] = "Erawan"; 
+listings[17]['lnk'] = '/ny/syracuse/erawan';
 
-listings[18]['search'] = 'hughies hotcakes'; 
-listings[18]['des'] = "Hughie's Hotcakes"; 
-listings[18]['lnk'] = '/ny/syracuse/hughies-hotcakes';
+listings[18]['search'] = 'hope cafe'; 
+listings[18]['des'] = "Hope Cafe"; 
+listings[18]['lnk'] = '/ny/clay/hope-cafe';
 
-listings[19]['search'] = 'ji woos korean'; 
-listings[19]['des'] = "Ji-Woo's Korean Seoul Food"; 
-listings[19]['lnk'] = '/ny/syracuse/ji-woos';
+listings[19]['search'] = 'hughies hotcakes'; 
+listings[19]['des'] = "Hughie's Hotcakes"; 
+listings[19]['lnk'] = '/ny/syracuse/hughies-hotcakes';
 
-listings[20]['search'] = 'leos donut factory'; 
-listings[20]['des'] = "Leo's Donut Factory"; 
-listings[20]['lnk'] = '/ny/syracuse/leos-donut-factory';
+listings[20]['search'] = 'ji woos korean'; 
+listings[20]['des'] = "Ji-Woo's Korean Seoul Food"; 
+listings[20]['lnk'] = '/ny/syracuse/ji-woos';
 
-listings[21]['search'] = 'oompa loompyas'; 
-listings[21]['des'] = "Oompa Loompyas"; 
-listings[21]['lnk'] = '/ny/syracuse/oompa-loompyas';
+listings[21]['search'] = 'leos donut factory'; 
+listings[21]['des'] = "Leo's Donut Factory"; 
+listings[21]['lnk'] = '/ny/syracuse/leos-donut-factory';
 
-listings[22]['search'] = 'pbjs lunch box'; 
-listings[22]['des'] = "PB&J's Lunch Box"; 
-listings[22]['lnk'] = '/ny/baldwinsville/pbjs-lunch-box';
+listings[22]['search'] = 'oompa loompyas'; 
+listings[22]['des'] = "Oompa Loompyas"; 
+listings[22]['lnk'] = '/ny/syracuse/oompa-loompyas';
 
-listings[23]['search'] = 'pizza man'; 
-listings[23]['des'] = "Pizza Man"; 
-listings[23]['lnk'] = '/ny/baldwinsville/pizza-man';
+listings[23]['search'] = 'pbjs lunch box'; 
+listings[23]['des'] = "PB&J's Lunch Box"; 
+listings[23]['lnk'] = '/ny/baldwinsville/pbjs-lunch-box';
 
-listings[24]['search'] = 'sammy malones'; 
-listings[24]['des'] = "Sammy Malone's"; 
-listings[24]['lnk'] = '/ny/baldwinsville/sammy-malones';
+listings[24]['search'] = 'pizza man'; 
+listings[24]['des'] = "Pizza Man"; 
+listings[24]['lnk'] = '/ny/baldwinsville/pizza-man';
 
-listings[25]['search'] = 'shamballa cafe'; 
-listings[25]['des'] = "Shamballa Cafe"; 
-listings[25]['lnk'] = '/ny/baldwinsville/shamballa-cafe';
+listings[25]['search'] = 'sammy malones'; 
+listings[25]['des'] = "Sammy Malone's"; 
+listings[25]['lnk'] = '/ny/baldwinsville/sammy-malones';
 
-listings[26]['search'] = 'syracuse suds river grill'; 
-listings[26]['des'] = "Syracuse Suds River Grill"; 
-listings[26]['lnk'] = '/ny/baldwinsville/suds-river-grill';
+listings[26]['search'] = 'shamballa cafe'; 
+listings[26]['des'] = "Shamballa Cafe"; 
+listings[26]['lnk'] = '/ny/baldwinsville/shamballa-cafe';
+
+listings[27]['search'] = 'syracuse suds river grill'; 
+listings[27]['des'] = "Syracuse Suds River Grill"; 
+listings[27]['lnk'] = '/ny/baldwinsville/suds-river-grill';
 
 function search() {
     var input = document.getElementById('searchbar').value.toLowerCase();
