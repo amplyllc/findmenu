@@ -8,7 +8,7 @@ website:
 facebook: https://www.facebook.com/oompaloompyas
 instagram: 
 yelp: https://www.yelp.com/biz/oompa-loompyas-syracuse-3
-zip: 13027
+zip: 
 city: Syracuse
 state: NY
 category:

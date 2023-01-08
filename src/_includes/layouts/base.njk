@@ -2,11 +2,11 @@
 <html lang="en">
     <head>
         
-        {%- if (tags) -%}<title>{{ title }}'s Menu | {{ site.name }}</title>{%- else -%}<title>{{ title }} | {{ site.name }}</title>{%- endif -%}
+        {%- if (tags) -%}<title>{{ title }} Menu | {{ site.name }}</title>{%- else -%}<title>{{ title }} | {{ site.name }}</title>{%- endif -%}
         <link rel="icon" type="image/x-icon" href="/assets/favicon.svg"/>
 
         <meta name="author" content="{{ site.authorName }}">
-        {%- if (tags) -%}<meta name="description" content="Can't find {{ title }}'s menu? Search our collection of local, viewable menus.">{%- else -%}<meta name="description" content="{{ description }}">{%- endif -%}
+        {%- if (desc) -%}<meta name="description" content="{{ desc }}">{%- elif (tag) -%}<meta name="description" content="Browse {{title}} menu and information online, accessible on all devices. Can't find a menu? Search our handcrafted database of local, viewable menus.">{%- else -%}<meta name="description" content="{{site.description}}">{%- endif -%}
 
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +20,7 @@
         <meta name="theme-color" content="{{ site.color }}">
 
         <meta property="og:title" content="Find Menu" />
-        <meta property="og:description" content="Explore A Handcrafted Database of Local, Viewable Menus Here." />
+        <meta property="og:description" content="Can't find a menu? Search our handcrafted database of local, viewable menus from restaurants and foodtrucks." />
         <meta property="og:type" content="website"/>
         <meta property="og:image" content="/assets/ogimage.png"/>
         <!-- <meta property="og:image:secure_url" content="/assets/img/social.jpg"/> -->

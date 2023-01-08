@@ -42,6 +42,8 @@ saturday: 12PM-12AM
 
 | Specialty Sandwiches | | |
 | :--- | :--- | :--- |
+| Sammy's Famous Prime Roast Beef | $10 | Served on a Kaiser or Kimmelweck Roll. Best Sandwich since 2008. |
+| Sammy's Famous Roast Beef Melt | $10 | Our signature roast beef topped with warm cheddar sauce. |
 | French Dip | $13 | Our signature roast beef with melted Swiss, horseradish mayo, side of au jus on a toasted garlic Philly Amoroso hoagie roll. |
 | El Diablo | $13 | Our signature roast beef with roasted jalapeños, pepper jack cheese, chipotle mayo on a toasted Kaiser roll. |
 | Philly | $14 | Our signature roast beef with grilled onions, melted provolone or cheddar sauce with horseradish mayo on a toasted garlic Philly Amoroso hoagie roll. |
@@ -59,6 +61,23 @@ saturday: 12PM-12AM
 | Jalapeño Popper Grilled Cheese | $9 | Melted cheddar and creamy Marscapone cheeses with roasted jalapeños on grilled sourdough bread. |
 | Served on locally made rolls with chips and a pickle. | | |
 
+| Burgers | | |
+| :--- | :--- | :--- |
+| Burger Toppings | .50 each | Lettuce, Tomato, Red Onion, Sautéed Onions Sautéed Mushrooms, Sautéed Green Peppers, Roasted Jalapenos ($1) Jack Daniels Bourbon Bacon Jam (add 1.50) |
+| What makes a great Burger? Angus Beef & Angus Young! | | Our 6oz. patty of ground chuck, brisket and short rib. Served on locally made (Rock N') Rolls served with Chips & Pickle. |
+| The Jack | $14 | Pepper Jack cheese with Jack Daniels bourbon bacon jam. | 
+| TNT | $14 | Roasted jalapenos, chipotle aioli, pepper jack cheese. |
+| Highway To Hell | $14 | Roasted jalapenos, ghost pepper cheese & chipotle aioli. |
+| Hells Bells | $14 | Roasted jalapenos, ghost pepper cheese & Volcano aioli. |
+| Hhamburger | $10 | |
+| Cheeseburger | $11 | |
+| Bacon Cheeseburger | $14 | |
+
+| South Of The Border | | |
+| :--- | :--- | :--- |
+| Cheese Quesadilla | $8 | A blend of melted shredded cheeses on a 12" jalapeno cheddar tortilla served with pico de gallo and sour cream. Add Chicken & Steak + $4 |
+| Tacos (2) | $14 | Served with dressed cabbage slaw and drizzled with our sweet chipotle cilantro lime aioli on warmed flour tortillas with a side of pico de gallo and sour cream. Shrimp, Chicken or Steak |
+
 | Wings | | |
 | :--- | :--- | :--- |
 | Mild | | Our mix of butter and a li'l bit of hot sauce, for the faint of heart. |
@@ -74,25 +93,6 @@ saturday: 12PM-12AM
 | Volcano Voodoo | | A sweet heat tasty treat made with ghost peppers. |
 | 10 count served with bleu cheese and celery | | |
 
-| Sammy's Famous Roast Beef Sandwich | | |
-| :--- | :--- | :--- |
-| Prime Roast Beef | $10 | Served on a Kaiser or Kimmelweck Roll. Best Sandwich since 2008. |
-| Roast Beef Melt | $10 | Our signature roast beef topped with warm cheddar sauce. |
-| Served on locally made rolls with chips and a pickle. | | |
-
-
-| Burgers | | |
-| :--- | :--- | :--- |
-| Burger Toppings | .50 each | Lettuce, Tomato, Red Onion, Sautéed Onions Sautéed Mushrooms, Sautéed Green Peppers, Roasted Jalapenos ($1) Jack Daniels Bourbon Bacon Jam (add 1.50) |
-| What makes a great Burger? Angus Beef & Angus Young! | | Our 6oz. patty of ground chuck, brisket and short rib. Served on locally made (Rock N') Rolls served with Chips & Pickle. |
-| The Jack | $14 | Pepper Jack cheese with Jack Daniels bourbon bacon jam. | 
-| TNT | $14 | Roasted jalapenos, chipotle aioli, pepper jack cheese. |
-| Highway To Hell | $14 | Roasted jalapenos, ghost pepper cheese & chipotle aioli. |
-| Hells Bells | $14 | Roasted jalapenos, ghost pepper cheese & Volcano aioli. |
-| Hhamburger | $10 | |
-| Cheeseburger | $11 | |
-| Bacon Cheeseburger | $14 | |
-
 | Salads Creations | | |
 | :--- | :--- | :--- |
 | Create Your Own Salad | $12 | |
@@ -101,11 +101,6 @@ saturday: 12PM-12AM
 | Feelin' Cheesy? | | Select One for FREE. Crumbly Bleu • Shaved Parmesan • Asiago • Sliced Provolone, Cheddar or Swiss |
 | Step 3: Add Some Protein | | Add $4.00/Item. Grilled Chicken • Spicy Chicken • Turkey Roast Beef $6.00 • Fried Shrimp $8.00 |
 | Step 4: Dress It Up! | | Delicious Dressings. Blue Cheese • Fat Free Raspberry • Italian Caesar • Ranch • Salsa Ranch • Balsamic • Oil & Vinegar • Thousand Island • Lemon Vinaigrette • Greek Feta |
-
-| South Of The Border | | |
-| :--- | :--- | :--- |
-| Cheese Quesadilla | $8 | A blend of melted shredded cheeses on a 12" jalapeno cheddar tortilla served with pico de gallo and sour cream. Add Chicken & Steak + $4 |
-| Tacos (2) | $14 | Served with dressed cabbage slaw and drizzled with our sweet chipotle cilantro lime aioli on warmed flour tortillas with a side of pico de gallo and sour cream. Shrimp, Chicken or Steak |
 
 | Sides & Soups | | |
 | :--- | :--- | :--- |
