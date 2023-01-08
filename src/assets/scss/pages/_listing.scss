@@ -190,6 +190,7 @@
         }
         &.active {
             width: 100%;
+            grid-column: 1 / span 2;
 
             tbody {
                 display: grid;
