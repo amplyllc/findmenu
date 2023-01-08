@@ -21,7 +21,7 @@ layout: "layouts/base.njk"
     </div>
     <div class="container grid two">
         {%- for post in collections.bars | reverse | limit(4)-%}
-            {% include 'components/article-card.njk' %}
+            {% include 'components/listing-card.njk' %}
         {%- endfor -%}
     </div>
 </section><!-- /featured -->

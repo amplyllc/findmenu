@@ -19,7 +19,7 @@ eleventyComputed:
 <div class="container">
 {% set taglist = collections[ tag ] %}
 {% for post in taglist %}
-{% include 'components/article-card.njk' %}
+{% include 'components/listing-card.njk' %}
 {% endfor %}
 </div>
 
