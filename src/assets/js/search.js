@@ -43,7 +43,7 @@ listings[9]['lnk'] = '/ny/baldwinsville/bg1';
 
 listings[10]['search'] = 'big awesome bbq'; 
 listings[10]['des'] = 'Big Awesome BBQ'; 
-listings[10]['lnk'] = '/ny/baldwinsville/big-awesome-bbq';
+listings[10]['lnk'] = '/ny/syracuse/big-awesome-bbq';
 
 listings[11]['search'] = 'bville diner'; 
 listings[11]['des'] = "B'ville Diner"; 
