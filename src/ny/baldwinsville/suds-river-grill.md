@@ -21,13 +21,13 @@ tags:
     - bars
     - american
 date: 2023-01-02
-sunday: 11:30AM-2AM
-monday: 11:30AM-2AM
-tuesday: 11:30AM-2AM
-wednesday: 11:30AM-2AM
-thursday: 11:30AM-2AM
-friday: 11:30AM-2AM
-saturday: 11:30AM-2AM
+sunday: 11:30AM - 2AM
+monday: 11:30AM - 2AM
+tuesday: 11:30AM - 2AM
+wednesday: 11:30AM - 2AM
+thursday: 11:30AM - 2AM
+friday: 11:30AM - 2AM
+saturday: 11:30AM - 2AM
 ---
 
 | 1st Mates | | |

@@ -21,13 +21,13 @@ tags:
     - bars
     - sandwiches
 date: 2023-01-01
-sunday: 12PM-8PM
-monday: 4PM-10PM
-tuesday: 4PM-10PM
-wednesday: 4PM-10PM
-thursday: 4PM-10PM
-friday: 12PM-12AM
-saturday: 12PM-12AM
+sunday: 12PM - 8PM
+monday: 4PM - 10PM
+tuesday: 4PM - 10PM
+wednesday: 4PM - 10PM
+thursday: 4PM - 10PM
+friday: 12PM - 12AM
+saturday: 12PM - 12AM
 ---
 
 | It's Nice To Share | | |
