@@ -8,6 +8,8 @@ facebook: https://www.facebook.com/881479298545469
 instagram: https://www.instagram.com/bigawesomebbq
 yelp: https://www.yelp.com/biz/big-awesome-bbq-syracuse
 states:
+city: Baldwinsville
+state: NY
 category:
     one: foodtrucks
     two: BBQ
