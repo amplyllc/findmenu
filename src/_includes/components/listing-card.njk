@@ -2,9 +2,9 @@
     <a href="{{ post.url }}" class="info">
         <p>{{ post.data.title }}</p>
         {%- if (post.data.hours) %}
-            <p>View Availability</p>
+            <p>{{post.data.city}}, {{post.data.state}} - View Availability</p>
         {%- else -%}
-            <p>{{ post.data.address }}</p>
+            <p>{{ post.data.address }} {{post.data.city}}, {{post.data.state}}</p>
         {%- endif -%}
     </a>
 </div>
