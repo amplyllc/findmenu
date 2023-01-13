@@ -6,7 +6,8 @@ const pluginTOC = require('eleventy-plugin-toc');
 
 module.exports = function(eleventyConfig) {
 
-    eleventyConfig.addPassthroughCopy('./src/css');
+    eleventyConfig.addPassthroughCopy('./src/stork.js');
+    eleventyConfig.addPassthroughCopy('./src/stork.wasm');
     eleventyConfig.addPassthroughCopy('./src/assets');
     eleventyConfig.addPassthroughCopy('./src/admin');
     eleventyConfig.addPassthroughCopy('./src/favicon.png');
