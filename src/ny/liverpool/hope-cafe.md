@@ -8,9 +8,9 @@ website:
 facebook: http://facebook.com/hopecafeandtea
 instagram: http://instagram.com/hopecafeandtea
 yelp: https://www.yelp.com/biz/hope-cafe-coffee-and-tea-house-liverpool
-address: 8223 Oswego Rd.
-zip: 13090
-city: Clay
+address: 920 Old Liverpool Rd.
+zip: 13088
+city: Liverpool
 state: NY
 category:
     one: coffee
@@ -21,6 +21,13 @@ tags:
     - breakfast
     - peruvian
 date: 2023-01-02
+sunday: Closed
+monday: 8AM - 3PM
+tuesday: 8AM - 3PM
+wednesday: 8AM - 3PM
+thursday: 8AM - 3PM
+friday: 8AM - 3PM
+saturday: 8AM - 3PM
 ---
 
 | Sangwiches | | |

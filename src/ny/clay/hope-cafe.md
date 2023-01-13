@@ -8,9 +8,9 @@ website:
 facebook: http://facebook.com/hopecafeandtea
 instagram: http://instagram.com/hopecafeandtea
 yelp: https://www.yelp.com/biz/hope-cafe-coffee-and-tea-house-liverpool
-address: 920 Old Liverpool Rd.
-zip: 13088
-city: Liverpool 
+address: 8223 Oswego Rd.
+zip: 13090
+city: Clay
 state: NY
 category:
     one: coffee
