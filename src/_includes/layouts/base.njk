@@ -6,7 +6,7 @@
         <link rel="icon" type="image/x-icon" href="/assets/favicon.svg"/>
 
         <meta name="author" content="{{ site.authorName }}">
-        {%- if (desc) -%}<meta name="description" content="{{ desc }}">{%- elif (tags) -%}<meta name="description" content="Browse {{title}} menu and information online, accessible on all devices. Can't find a menu? Search our handcrafted database of local, viewable menus.">{%- else -%}<meta name="description" content="{{site.description}}">{%- endif -%}
+        {%- if (desc) -%}<meta name="description" content="{{ desc }}">{%- elif (tags) -%}<meta name="description" content="Learn more about {{title}} in {{city}}, {{state}}. View a responsive menu, hours, and available links to {{title}}. Last updated: {{ date | postDate }}.">{%- else -%}<meta name="description" content="{{site.description}}">{%- endif -%}
 
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
