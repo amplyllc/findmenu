@@ -4,9 +4,9 @@ eleventyExcludeFromCollections: true
 ---
  
 [input]
-url_prefix = "{{metadata.url}}"
+url_prefix = "{{site.url}}"
  
-{%- for post in collections.posts %}
+{%- for post in collections.all %}
 {% set absolutePostUrl %}{{ post.url | url }}{% endset %}
  
 [[input.files]]

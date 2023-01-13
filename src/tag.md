@@ -10,6 +10,7 @@ layout: layouts/base.njk
 eleventyComputed:
   metaTitle: "{{ tag }}"
   title: "{{ tag }}"
+eleventyExcludeFromCollections: true
 ---
 
 <div id="collection-container">
