@@ -5,7 +5,7 @@ eleventyExcludeFromCollections: true
  
 [input]
 url_prefix = "{{site.url}}"
-html_selector = "#listing.title"
+html_selector = "article#menu"
  
 {%- for post in collections.all %}
 {% set absolutePostUrl %}{{ post.url | url }}{% endset %}
