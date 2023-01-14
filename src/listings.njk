@@ -10,7 +10,7 @@ url_prefix = "{{site.url}}"
 {% set absolutePostUrl %}{{ post.url | url }}{% endset %}
  
 [[input.files]]
-path = "{{post.inputPath}}"
+path = "{{post.outputPath}}"
 url = "{{absolutePostUrl}}"
 title = "{{post.data.title | safe}}"
  

@@ -4,187 +4,187 @@ url_prefix = "https://test.findmenu.org"
 
  
 [[input.files]]
-path = "./src/ny/phoenix/basil-thai.md"
+path = "public/ny/phoenix/basil-thai/index.html"
 url = "/ny/phoenix/basil-thai/"
 title = "Basil Thai"
 
  
 [[input.files]]
-path = "./src/ny/baldwinsville/angry-garlic.md"
+path = "public/ny/baldwinsville/angry-garlic/index.html"
 url = "/ny/baldwinsville/angry-garlic/"
 title = "Angry Garlic"
 
  
 [[input.files]]
-path = "./src/ny/baldwinsville/atlantic-seafood.md"
+path = "public/ny/baldwinsville/atlantic-seafood/index.html"
 url = "/ny/baldwinsville/atlantic-seafood/"
 title = "Atlantic Seafood"
 
  
 [[input.files]]
-path = "./src/ny/baldwinsville/bg1.md"
+path = "public/ny/baldwinsville/bg1/index.html"
 url = "/ny/baldwinsville/bg1/"
 title = "BG1 Restaurant"
 
  
 [[input.files]]
-path = "./src/ny/baldwinsville/bville-diner.md"
+path = "public/ny/baldwinsville/bville-diner/index.html"
 url = "/ny/baldwinsville/bville-diner/"
 title = "B'ville Diner"
 
  
 [[input.files]]
-path = "./src/ny/baldwinsville/bville-sports-bowl.md"
+path = "public/ny/baldwinsville/bville-sports-bowl/index.html"
 url = "/ny/baldwinsville/bville-sports-bowl/"
 title = "B'ville Sports Bowl"
 
  
 [[input.files]]
-path = "./src/ny/baldwinsville/dough-boys.md"
+path = "public/ny/baldwinsville/dough-boys/index.html"
 url = "/ny/baldwinsville/dough-boys/"
 title = "Dough Boys Pizzeria"
 
  
 [[input.files]]
-path = "./src/ny/baldwinsville/shamballa-cafe.md"
+path = "public/ny/baldwinsville/shamballa-cafe/index.html"
 url = "/ny/baldwinsville/shamballa-cafe/"
 title = "Shamballa Cafe"
 
  
 [[input.files]]
-path = "./src/ny/syracuse/big-awesome-bbq.md"
+path = "public/ny/syracuse/big-awesome-bbq/index.html"
 url = "/ny/syracuse/big-awesome-bbq/"
 title = "Big Awesome BBQ"
 
  
 [[input.files]]
-path = "./src/ny/baldwinsville/sammy-malones.md"
+path = "public/ny/baldwinsville/sammy-malones/index.html"
 url = "/ny/baldwinsville/sammy-malones/"
 title = "Sammy Malone's"
 
  
 [[input.files]]
-path = "./src/ny/syracuse/oompa-loompyas.md"
+path = "public/ny/syracuse/oompa-loompyas/index.html"
 url = "/ny/syracuse/oompa-loompyas/"
 title = "Oompa Loompyas"
 
  
 [[input.files]]
-path = "./src/ny/baldwinsville/suds-river-grill.md"
+path = "public/ny/baldwinsville/suds-river-grill/index.html"
 url = "/ny/baldwinsville/suds-river-grill/"
 title = "Syracuse Suds River Grill"
 
  
 [[input.files]]
-path = "./src/ny/clay/hope-cafe.md"
+path = "public/ny/clay/hope-cafe/index.html"
 url = "/ny/clay/hope-cafe/"
 title = "Hope Cafe"
 
  
 [[input.files]]
-path = "./src/ny/liverpool/hope-cafe.md"
+path = "public/ny/liverpool/hope-cafe/index.html"
 url = "/ny/liverpool/hope-cafe/"
 title = "Hope Cafe"
 
  
 [[input.files]]
-path = "./src/ny/baldwinsville/cottage-restaurant.md"
+path = "public/ny/baldwinsville/cottage-restaurant/index.html"
 url = "/ny/baldwinsville/cottage-restaurant/"
 title = "Cottage Restaurant"
 
  
 [[input.files]]
-path = "./src/ny/syracuse/ali-baba.md"
+path = "public/ny/syracuse/ali-baba/index.html"
 url = "/ny/syracuse/ali-baba/"
 title = "Ali Baba"
 
  
 [[input.files]]
-path = "./src/ny/syracuse/baga-bowls.md"
+path = "public/ny/syracuse/baga-bowls/index.html"
 url = "/ny/syracuse/baga-bowls/"
 title = "Baga Bowls on the Go"
 
  
 [[input.files]]
-path = "./src/ny/syracuse/baji-cali-taco.md"
+path = "public/ny/syracuse/baji-cali-taco/index.html"
 url = "/ny/syracuse/baji-cali-taco/"
 title = "Baji Cali Taco"
 
  
 [[input.files]]
-path = "./src/ny/syracuse/bob-barkers.md"
+path = "public/ny/syracuse/bob-barkers/index.html"
 url = "/ny/syracuse/bob-barkers/"
 title = "Bob Barker's Famous Hotdogs"
 
  
 [[input.files]]
-path = "./src/ny/syracuse/cafe-jarosz.md"
+path = "public/ny/syracuse/cafe-jarosz/index.html"
 url = "/ny/syracuse/cafe-jarosz/"
 title = "Cafe Jarosz"
 
  
 [[input.files]]
-path = "./src/ny/syracuse/eden.md"
+path = "public/ny/syracuse/eden/index.html"
 url = "/ny/syracuse/eden/"
 title = "Eden"
 
  
 [[input.files]]
-path = "./src/ny/syracuse/elbitas-cocina.md"
+path = "public/ny/syracuse/elbitas-cocina/index.html"
 url = "/ny/syracuse/elbitas-cocina/"
 title = "Elbita's Cocina"
 
  
 [[input.files]]
-path = "./src/ny/syracuse/elm-street-tacos.md"
+path = "public/ny/syracuse/elm-street-tacos/index.html"
 url = "/ny/syracuse/elm-street-tacos/"
 title = "Elm Street Tacos"
 
  
 [[input.files]]
-path = "./src/ny/syracuse/hughies-hotcakes.md"
+path = "public/ny/syracuse/hughies-hotcakes/index.html"
 url = "/ny/syracuse/hughies-hotcakes/"
 title = "Hughie's Hotcakes"
 
  
 [[input.files]]
-path = "./src/ny/syracuse/ji-woos.md"
+path = "public/ny/syracuse/ji-woos/index.html"
 url = "/ny/syracuse/ji-woos/"
 title = "Ji-Woo's Korean Seoul Food"
 
  
 [[input.files]]
-path = "./src/ny/syracuse/leos-donut-factory.md"
+path = "public/ny/syracuse/leos-donut-factory/index.html"
 url = "/ny/syracuse/leos-donut-factory/"
 title = "Leo's Donut Factory"
 
  
 [[input.files]]
-path = "./src/ny/syracuse/pbjs-lunch-box.md"
+path = "public/ny/syracuse/pbjs-lunch-box/index.html"
 url = "/ny/syracuse/pbjs-lunch-box/"
 title = "PB&J's Lunch Box"
 
  
 [[input.files]]
-path = "./src/ny/syracuse/erawan.md"
+path = "public/ny/syracuse/erawan/index.html"
 url = "/ny/syracuse/erawan/"
 title = "Erawan Thai"
 
  
 [[input.files]]
-path = "./src/ny/phoenix/bombadils-tavern.md"
+path = "public/ny/phoenix/bombadils-tavern/index.html"
 url = "/ny/phoenix/bombadils-tavern/"
 title = "Bombadil's Tavern"
 
  
 [[input.files]]
-path = "./src/ny/phoenix/harpers.md"
+path = "public/ny/phoenix/harpers/index.html"
 url = "/ny/phoenix/harpers/"
 title = "Harpers Pizza & Ice Cream"
 
  
 [[input.files]]
-path = "./src/ny/phoenix/lock-1-distilling.md"
+path = "public/ny/phoenix/lock-1-distilling/index.html"
 url = "/ny/phoenix/lock-1-distilling/"
 title = "Lock 1 Distilling Co"
 
