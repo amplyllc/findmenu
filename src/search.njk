@@ -15,6 +15,14 @@ eleventyExcludeFromCollections: true
   <div data-stork="listings-output" class="stork-output"></div>
 </div>
  
-<script src="https://files.stork-search.net/releases/v1.6.0/stork.js"></script>
+<script src="{{site.url}}/stork.js"></script>
+<script>
+  stork.initialize("{{site.url}}/stork.wasm")
+  stork.register("listings", "{{site.url}}/index-file.st")
+</script>
  
-<script>stork.register('listings', '/listings.st');</script>
+<!-- <script src="https://files.stork-search.net/releases/v1.6.0/stork.js"></script>
+ 
+<script>
+stork.register('listings', '/listings.st');
+</script> -->

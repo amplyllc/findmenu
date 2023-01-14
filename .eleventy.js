@@ -8,6 +8,10 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy('./src/assets');
     eleventyConfig.addPassthroughCopy('./src/admin');
+    eleventyConfig.addPassthroughCopy('./src/listings.st');
+    eleventyConfig.addPassthroughCopy('./src/listings.toml');
+    eleventyConfig.addPassthroughCopy('./src/stork.js');
+    eleventyConfig.addPassthroughCopy('./src/stork.wasm');
 
     eleventyConfig.addPlugin(pluginTOC, {
         tags: ['th'],

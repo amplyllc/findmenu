@@ -1,0 +1,190 @@
+ 
+[input]
+url_prefix = "https://test.findmenu.org"
+
+ 
+[[input.files]]
+path = "./src/ny/phoenix/basil-thai.md"
+url = "/ny/phoenix/basil-thai/"
+title = "Basil Thai"
+
+ 
+[[input.files]]
+path = "./src/ny/baldwinsville/angry-garlic.md"
+url = "/ny/baldwinsville/angry-garlic/"
+title = "Angry Garlic"
+
+ 
+[[input.files]]
+path = "./src/ny/baldwinsville/atlantic-seafood.md"
+url = "/ny/baldwinsville/atlantic-seafood/"
+title = "Atlantic Seafood"
+
+ 
+[[input.files]]
+path = "./src/ny/baldwinsville/bg1.md"
+url = "/ny/baldwinsville/bg1/"
+title = "BG1 Restaurant"
+
+ 
+[[input.files]]
+path = "./src/ny/baldwinsville/bville-diner.md"
+url = "/ny/baldwinsville/bville-diner/"
+title = "B'ville Diner"
+
+ 
+[[input.files]]
+path = "./src/ny/baldwinsville/bville-sports-bowl.md"
+url = "/ny/baldwinsville/bville-sports-bowl/"
+title = "B'ville Sports Bowl"
+
+ 
+[[input.files]]
+path = "./src/ny/baldwinsville/dough-boys.md"
+url = "/ny/baldwinsville/dough-boys/"
+title = "Dough Boys Pizzeria"
+
+ 
+[[input.files]]
+path = "./src/ny/baldwinsville/shamballa-cafe.md"
+url = "/ny/baldwinsville/shamballa-cafe/"
+title = "Shamballa Cafe"
+
+ 
+[[input.files]]
+path = "./src/ny/syracuse/big-awesome-bbq.md"
+url = "/ny/syracuse/big-awesome-bbq/"
+title = "Big Awesome BBQ"
+
+ 
+[[input.files]]
+path = "./src/ny/baldwinsville/sammy-malones.md"
+url = "/ny/baldwinsville/sammy-malones/"
+title = "Sammy Malone's"
+
+ 
+[[input.files]]
+path = "./src/ny/syracuse/oompa-loompyas.md"
+url = "/ny/syracuse/oompa-loompyas/"
+title = "Oompa Loompyas"
+
+ 
+[[input.files]]
+path = "./src/ny/baldwinsville/suds-river-grill.md"
+url = "/ny/baldwinsville/suds-river-grill/"
+title = "Syracuse Suds River Grill"
+
+ 
+[[input.files]]
+path = "./src/ny/clay/hope-cafe.md"
+url = "/ny/clay/hope-cafe/"
+title = "Hope Cafe"
+
+ 
+[[input.files]]
+path = "./src/ny/liverpool/hope-cafe.md"
+url = "/ny/liverpool/hope-cafe/"
+title = "Hope Cafe"
+
+ 
+[[input.files]]
+path = "./src/ny/baldwinsville/cottage-restaurant.md"
+url = "/ny/baldwinsville/cottage-restaurant/"
+title = "Cottage Restaurant"
+
+ 
+[[input.files]]
+path = "./src/ny/syracuse/ali-baba.md"
+url = "/ny/syracuse/ali-baba/"
+title = "Ali Baba"
+
+ 
+[[input.files]]
+path = "./src/ny/syracuse/baga-bowls.md"
+url = "/ny/syracuse/baga-bowls/"
+title = "Baga Bowls on the Go"
+
+ 
+[[input.files]]
+path = "./src/ny/syracuse/baji-cali-taco.md"
+url = "/ny/syracuse/baji-cali-taco/"
+title = "Baji Cali Taco"
+
+ 
+[[input.files]]
+path = "./src/ny/syracuse/bob-barkers.md"
+url = "/ny/syracuse/bob-barkers/"
+title = "Bob Barker's Famous Hotdogs"
+
+ 
+[[input.files]]
+path = "./src/ny/syracuse/cafe-jarosz.md"
+url = "/ny/syracuse/cafe-jarosz/"
+title = "Cafe Jarosz"
+
+ 
+[[input.files]]
+path = "./src/ny/syracuse/eden.md"
+url = "/ny/syracuse/eden/"
+title = "Eden"
+
+ 
+[[input.files]]
+path = "./src/ny/syracuse/elbitas-cocina.md"
+url = "/ny/syracuse/elbitas-cocina/"
+title = "Elbita's Cocina"
+
+ 
+[[input.files]]
+path = "./src/ny/syracuse/elm-street-tacos.md"
+url = "/ny/syracuse/elm-street-tacos/"
+title = "Elm Street Tacos"
+
+ 
+[[input.files]]
+path = "./src/ny/syracuse/hughies-hotcakes.md"
+url = "/ny/syracuse/hughies-hotcakes/"
+title = "Hughie's Hotcakes"
+
+ 
+[[input.files]]
+path = "./src/ny/syracuse/ji-woos.md"
+url = "/ny/syracuse/ji-woos/"
+title = "Ji-Woo's Korean Seoul Food"
+
+ 
+[[input.files]]
+path = "./src/ny/syracuse/leos-donut-factory.md"
+url = "/ny/syracuse/leos-donut-factory/"
+title = "Leo's Donut Factory"
+
+ 
+[[input.files]]
+path = "./src/ny/syracuse/pbjs-lunch-box.md"
+url = "/ny/syracuse/pbjs-lunch-box/"
+title = "PB&J's Lunch Box"
+
+ 
+[[input.files]]
+path = "./src/ny/syracuse/erawan.md"
+url = "/ny/syracuse/erawan/"
+title = "Erawan Thai"
+
+ 
+[[input.files]]
+path = "./src/ny/phoenix/bombadils-tavern.md"
+url = "/ny/phoenix/bombadils-tavern/"
+title = "Bombadil's Tavern"
+
+ 
+[[input.files]]
+path = "./src/ny/phoenix/harpers.md"
+url = "/ny/phoenix/harpers/"
+title = "Harpers Pizza & Ice Cream"
+
+ 
+[[input.files]]
+path = "./src/ny/phoenix/lock-1-distilling.md"
+url = "/ny/phoenix/lock-1-distilling/"
+title = "Lock 1 Distilling Co"
+
