@@ -1,6 +1,7 @@
  
 [input]
 url_prefix = "https://test.findmenu.org"
+html_selector = "#listing.title"
 
  
 [[input.files]]
