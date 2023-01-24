@@ -105,29 +105,33 @@ listings[25]['search'] = 'lock 1 distilling company';
 listings[25]['des'] = "Lock 1 Distilling Co"; 
 listings[25]['lnk'] = '/ny/phoenix/lock-1-distilling';
 
-listings[26]['search'] = 'oompa loompyas'; 
-listings[26]['des'] = "Oompa Loompyas"; 
-listings[26]['lnk'] = '/ny/syracuse/oompa-loompyas';
+listings[26]['search'] = 'mi ranchito'; 
+listings[26]['des'] = "Mi Ranchito"; 
+listings[26]['lnk'] = '/ny/baldwinsville/mi-ranchito';
 
-listings[27]['search'] = 'pbjs lunch box'; 
-listings[27]['des'] = "PB&J's Lunch Box"; 
-listings[27]['lnk'] = '/ny/baldwinsville/pbjs-lunch-box';
+listings[27]['search'] = 'oompa loompyas'; 
+listings[27]['des'] = "Oompa Loompyas"; 
+listings[27]['lnk'] = '/ny/syracuse/oompa-loompyas';
 
-listings[28]['search'] = 'pizza man'; 
-listings[28]['des'] = "Pizza Man"; 
-listings[28]['lnk'] = '/ny/baldwinsville/pizza-man';
+listings[28]['search'] = 'pbjs lunch box'; 
+listings[28]['des'] = "PB&J's Lunch Box"; 
+listings[28]['lnk'] = '/ny/baldwinsville/pbjs-lunch-box';
 
-listings[29]['search'] = 'sammy malones'; 
-listings[29]['des'] = "Sammy Malone's"; 
-listings[29]['lnk'] = '/ny/baldwinsville/sammy-malones';
+listings[29]['search'] = 'pizza man'; 
+listings[29]['des'] = "Pizza Man"; 
+listings[29]['lnk'] = '/ny/baldwinsville/pizza-man';
 
-listings[30]['search'] = 'shamballa cafe'; 
-listings[30]['des'] = "Shamballa Cafe"; 
-listings[30]['lnk'] = '/ny/baldwinsville/shamballa-cafe';
+listings[30]['search'] = 'sammy malones'; 
+listings[30]['des'] = "Sammy Malone's"; 
+listings[30]['lnk'] = '/ny/baldwinsville/sammy-malones';
 
-listings[31]['search'] = 'syracuse suds river grill'; 
-listings[31]['des'] = "Syracuse Suds River Grill"; 
-listings[31]['lnk'] = '/ny/baldwinsville/suds-river-grill';
+listings[31]['search'] = 'shamballa cafe'; 
+listings[31]['des'] = "Shamballa Cafe"; 
+listings[31]['lnk'] = '/ny/baldwinsville/shamballa-cafe';
+
+listings[32]['search'] = 'syracuse suds river grill'; 
+listings[32]['des'] = "Syracuse Suds River Grill"; 
+listings[32]['lnk'] = '/ny/baldwinsville/suds-river-grill';
 
 function search() {
     var input = document.getElementById('searchbar').value.toLowerCase();
